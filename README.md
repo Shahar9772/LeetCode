@@ -1,3 +1,3 @@
-# leet-code
+# Leet-Code
 
 ### My solutions, divided by topics.
