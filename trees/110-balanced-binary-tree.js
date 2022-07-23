@@ -1,10 +1,5 @@
 var assert = require("assert");
-
-function TreeNode(val, left, right) {
-  this.val = val === undefined ? 0 : val;
-  this.left = left === undefined ? null : left;
-  this.right = right === undefined ? null : right;
-}
+const TreeNode = require("./utils/tree-node");
 
 /**
  * @param {TreeNode} root
