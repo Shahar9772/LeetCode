@@ -5,7 +5,6 @@ const TreeNode = require("./utils/tree-node");
  * @param {TreeNode} root
  * @return {boolean}
  */
-
 var isBalanced = function (root) {
   getHeight = function (root) {
     if (!root) return 0;
