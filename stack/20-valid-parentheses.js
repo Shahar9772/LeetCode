@@ -42,3 +42,4 @@ var isValid = function (s) {
 
 assert(isValid("()") === true);
 assert(isValid("{()") === false);
+assert(isValid("{()}") === true);
